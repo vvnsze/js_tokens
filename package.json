@@ -1,0 +1,18 @@
+{
+  "name": "node-token-jwt",
+  "version": "1.0.0",
+  "description": "trying out json web tokens",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "vivian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.6",
+    "morgan": "^1.7.0"
+  }
+}

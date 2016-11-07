@@ -5,7 +5,7 @@ var morgan = require('morgan');
 var mongoose = require('mongoose');
 var jwt = require('jsonwebtoken');
 var config = require('./config');
-var User = require('./app/models/user');
+var User = require('./models/user');
 var port = process.env.port || 8080;
 
 mongoose.connect(config.database);
